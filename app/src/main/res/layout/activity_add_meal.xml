@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddMealActivity">
+
+    <TextView
+        android:id="@+id/add_fast_food_meal_title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Add Meal Title"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/add_meal_title"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:hint="Nom du Repas"
+        />
+    <EditText
+        android:id="@+id/add_meal_price"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:layout_marginTop="24dp"
+        android:hint="Prix du repas"/>
+    <Button
+        android:id="@+id/add_meal_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="Ajouter"/>
+
+
+
+</LinearLayout>
